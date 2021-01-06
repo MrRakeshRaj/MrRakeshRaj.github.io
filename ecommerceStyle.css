@@ -169,7 +169,7 @@ h4{
     display:none;
 }
 
-/*********************mediaquery for menu********************************/
+/* ********************mediaquery for menu*******************************/
 @media only screen and (max-width:800px){
 
     nav ul{
@@ -183,7 +183,7 @@ h4{
 
     }
 
-    nav li{
+    nav ul li{
         display:block;
         margin-right: 50px;
         margin-top: 10px;
@@ -196,6 +196,7 @@ h4{
     }
 
     .menu-icon{
+
         display:block;
         cursor:pointer;
     }
